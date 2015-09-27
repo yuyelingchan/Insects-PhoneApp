@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1D16B01B5E50CE003AAC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D16AF1B5E50CE003AAC6C /* AppDelegate.swift */; };
+		CE1D16B21B5E50CE003AAC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D16B11B5E50CE003AAC6C /* ViewController.swift */; };
+		CE1D16B51B5E50CE003AAC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1D16B31B5E50CE003AAC6C /* Main.storyboard */; };
+		CE1D16B71B5E50CE003AAC6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1D16B61B5E50CE003AAC6C /* Images.xcassets */; };
+		CE1D16BA1B5E50CE003AAC6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1D16B81B5E50CE003AAC6C /* LaunchScreen.xib */; };
+		CE1D16C61B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D16C51B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests.swift */; };
+		CE1D16D01B5E5100003AAC6C /* AzureUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D16CF1B5E5100003AAC6C /* AzureUploader.swift */; };
+		CE1D16D21B5E6769003AAC6C /* AzureUploaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D16D11B5E6769003AAC6C /* AzureUploaderDelegate.swift */; };
+		CEA26C5E1B62C9E100D098CE /* CircularProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26C5D1B62C9E100D098CE /* CircularProgressIndicator.swift */; };
+		CEF41B411B5EBB9C006E3834 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41B401B5EBB9C006E3834 /* AnalysisViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1D16C01B5E50CE003AAC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1D16A21B5E50CE003AAC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1D16A91B5E50CE003AAC6C;
+			remoteInfo = AsuzeBioacousticsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1D16AA1B5E50CE003AAC6C /* Bioacoustics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bioacoustics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1D16AE1B5E50CE003AAC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1D16AF1B5E50CE003AAC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1D16B11B5E50CE003AAC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE1D16B41B5E50CE003AAC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1D16B61B5E50CE003AAC6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE1D16B91B5E50CE003AAC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE1D16BF1B5E50CE003AAC6C /* BioacousticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioacousticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1D16C41B5E50CE003AAC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1D16C51B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsuzeBioacousticsDemoTests.swift; sourceTree = "<group>"; };
+		CE1D16CF1B5E5100003AAC6C /* AzureUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureUploader.swift; sourceTree = "<group>"; };
+		CE1D16D11B5E6769003AAC6C /* AzureUploaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureUploaderDelegate.swift; sourceTree = "<group>"; };
+		CEA26C5D1B62C9E100D098CE /* CircularProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressIndicator.swift; sourceTree = "<group>"; };
+		CEF41B401B5EBB9C006E3834 /* AnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1D16A71B5E50CE003AAC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1D16BC1B5E50CE003AAC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1D16A11B5E50CE003AAC6C = {
+			isa = PBXGroup;
+			children = (
+				CE1D16AC1B5E50CE003AAC6C /* AsuzeBioacousticsDemo */,
+				CE1D16C21B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests */,
+				CE1D16AB1B5E50CE003AAC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1D16AB1B5E50CE003AAC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D16AA1B5E50CE003AAC6C /* Bioacoustics.app */,
+				CE1D16BF1B5E50CE003AAC6C /* BioacousticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1D16AC1B5E50CE003AAC6C /* AsuzeBioacousticsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D16AF1B5E50CE003AAC6C /* AppDelegate.swift */,
+				CE1D16B11B5E50CE003AAC6C /* ViewController.swift */,
+				CEA26C5D1B62C9E100D098CE /* CircularProgressIndicator.swift */,
+				CEF41B401B5EBB9C006E3834 /* AnalysisViewController.swift */,
+				CE1D16CF1B5E5100003AAC6C /* AzureUploader.swift */,
+				CE1D16D11B5E6769003AAC6C /* AzureUploaderDelegate.swift */,
+				CE1D16B31B5E50CE003AAC6C /* Main.storyboard */,
+				CE1D16B61B5E50CE003AAC6C /* Images.xcassets */,
+				CE1D16B81B5E50CE003AAC6C /* LaunchScreen.xib */,
+				CE1D16AD1B5E50CE003AAC6C /* Supporting Files */,
+			);
+			path = AsuzeBioacousticsDemo;
+			sourceTree = "<group>";
+		};
+		CE1D16AD1B5E50CE003AAC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D16AE1B5E50CE003AAC6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1D16C21B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D16C51B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests.swift */,
+				CE1D16C31B5E50CE003AAC6C /* Supporting Files */,
+			);
+			path = AsuzeBioacousticsDemoTests;
+			sourceTree = "<group>";
+		};
+		CE1D16C31B5E50CE003AAC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D16C41B5E50CE003AAC6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1D16A91B5E50CE003AAC6C /* Bioacoustics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1D16C91B5E50CE003AAC6C /* Build configuration list for PBXNativeTarget "Bioacoustics" */;
+			buildPhases = (
+				CE1D16A61B5E50CE003AAC6C /* Sources */,
+				CE1D16A71B5E50CE003AAC6C /* Frameworks */,
+				CE1D16A81B5E50CE003AAC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bioacoustics;
+			productName = AsuzeBioacousticsDemo;
+			productReference = CE1D16AA1B5E50CE003AAC6C /* Bioacoustics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE1D16BE1B5E50CE003AAC6C /* BioacousticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1D16CC1B5E50CE003AAC6C /* Build configuration list for PBXNativeTarget "BioacousticsTests" */;
+			buildPhases = (
+				CE1D16BB1B5E50CE003AAC6C /* Sources */,
+				CE1D16BC1B5E50CE003AAC6C /* Frameworks */,
+				CE1D16BD1B5E50CE003AAC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1D16C11B5E50CE003AAC6C /* PBXTargetDependency */,
+			);
+			name = BioacousticsTests;
+			productName = AsuzeBioacousticsDemoTests;
+			productReference = CE1D16BF1B5E50CE003AAC6C /* BioacousticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1D16A21B5E50CE003AAC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "University of Southampton";
+				TargetAttributes = {
+					CE1D16A91B5E50CE003AAC6C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X7V2ABXY5L;
+					};
+					CE1D16BE1B5E50CE003AAC6C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CE1D16A91B5E50CE003AAC6C;
+					};
+				};
+			};
+			buildConfigurationList = CE1D16A51B5E50CE003AAC6C /* Build configuration list for PBXProject "Bioacoustics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1D16A11B5E50CE003AAC6C;
+			productRefGroup = CE1D16AB1B5E50CE003AAC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1D16A91B5E50CE003AAC6C /* Bioacoustics */,
+				CE1D16BE1B5E50CE003AAC6C /* BioacousticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1D16A81B5E50CE003AAC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D16B51B5E50CE003AAC6C /* Main.storyboard in Resources */,
+				CE1D16BA1B5E50CE003AAC6C /* LaunchScreen.xib in Resources */,
+				CE1D16B71B5E50CE003AAC6C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1D16BD1B5E50CE003AAC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1D16A61B5E50CE003AAC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D16D21B5E6769003AAC6C /* AzureUploaderDelegate.swift in Sources */,
+				CEA26C5E1B62C9E100D098CE /* CircularProgressIndicator.swift in Sources */,
+				CE1D16B21B5E50CE003AAC6C /* ViewController.swift in Sources */,
+				CE1D16D01B5E5100003AAC6C /* AzureUploader.swift in Sources */,
+				CE1D16B01B5E50CE003AAC6C /* AppDelegate.swift in Sources */,
+				CEF41B411B5EBB9C006E3834 /* AnalysisViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1D16BB1B5E50CE003AAC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D16C61B5E50CE003AAC6C /* AsuzeBioacousticsDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE1D16C11B5E50CE003AAC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1D16A91B5E50CE003AAC6C /* Bioacoustics */;
+			targetProxy = CE1D16C01B5E50CE003AAC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE1D16B31B5E50CE003AAC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1D16B41B5E50CE003AAC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE1D16B81B5E50CE003AAC6C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1D16B91B5E50CE003AAC6C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1D16C71B5E50CE003AAC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE1D16C81B5E50CE003AAC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1D16CA1B5E50CE003AAC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AsuzeBioacousticsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bioacoustics;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE1D16CB1B5E50CE003AAC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AsuzeBioacousticsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bioacoustics;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE1D16CD1B5E50CE003AAC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AsuzeBioacousticsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = BioacousticsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsuzeBioacousticsDemo.app/AsuzeBioacousticsDemo";
+			};
+			name = Debug;
+		};
+		CE1D16CE1B5E50CE003AAC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AsuzeBioacousticsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = BioacousticsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsuzeBioacousticsDemo.app/AsuzeBioacousticsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1D16A51B5E50CE003AAC6C /* Build configuration list for PBXProject "Bioacoustics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1D16C71B5E50CE003AAC6C /* Debug */,
+				CE1D16C81B5E50CE003AAC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1D16C91B5E50CE003AAC6C /* Build configuration list for PBXNativeTarget "Bioacoustics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1D16CA1B5E50CE003AAC6C /* Debug */,
+				CE1D16CB1B5E50CE003AAC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1D16CC1B5E50CE003AAC6C /* Build configuration list for PBXNativeTarget "BioacousticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1D16CD1B5E50CE003AAC6C /* Debug */,
+				CE1D16CE1B5E50CE003AAC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1D16A21B5E50CE003AAC6C /* Project object */;
+}

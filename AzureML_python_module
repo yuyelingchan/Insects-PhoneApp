@@ -1,0 +1,57 @@
+# coding: utf-8
+
+import sys
+sys.path = ['.\Script Bundle\Modlib'] + sys.path
+
+import os
+
+import numpy as np
+import scipy.io.wavfile as wav
+import pandas as pd
+
+from modfeatures import hz_spec, linear_mod, log_mod, log_bins, bin_mapping
+
+        
+def extract_one(signal, rate):
+    
+    sample_rate = rate/float(64)
+    nsample = np.floor(len(signal)/float(64))
+    nmod = int(np.floor(nsample/float(2))+1)
+    
+    hz_spectrum = hz_spec(signal)
+    hz_mod = linear_mod(hz_spectrum, nsample)
+           
+    hz_logmod = log_mod(hz_mod, nmod)
+    
+    return hz_logmod
+
+
+# The script MUST contain a function named azureml_main
+# which is the entry point for this module.
+#
+# The entry point function can contain up to two input arguments:
+#   Param<dataframe1>: a pandas.DataFrame
+#   Param<dataframe2>: a pandas.DataFrame
+def azureml_main(dataframe1 = None, dataframe2 = None):
+
+    fs = 44100
+    length = 10.0
+    #signal = np.random.random ((fs,1)
+        
+    signal = dataframe1["Samples"].as_matrix().astype(int)
+    print "signal shape:", signal.shape    
+    
+    if len(signal) < fs*length:
+        sample = np.append(signal, np.zeros(fs*length - len(signal)))
+    else:
+        sample = signal
+        
+    hz_logmod = extract_one( sample, fs)
+  
+    Y = hz_logmod.flatten()[np.newaxis]
+    
+    return pd.DataFrame(Y, columns=["mod%s" % i for i in range(33*48)]),
+
+
+if __name__ == '__main__':
+    azureml_main()
